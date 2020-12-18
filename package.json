@@ -1,0 +1,26 @@
+{
+  "name": "simple-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thiago-Ferreira-Silva/simple-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thiago-Ferreira-Silva/simple-chat/issues"
+  },
+  "homepage": "https://github.com/Thiago-Ferreira-Silva/simple-chat#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.0.4"
+  }
+}
