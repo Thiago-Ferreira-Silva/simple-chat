@@ -1,0 +1,22 @@
+body {
+    background-color: #bbe;
+    font-size: 1.8rem;
+}
+
+#form {
+    position: fixed;
+    bottom: 0px;
+    padding: 3px;
+    width: 100%;
+}
+
+#form input {
+    width: 90vw;
+    height: 6vh;
+}
+
+#form button {
+    width: 80px;
+    height: 40px;
+    font-size: 1.3rem;
+}
