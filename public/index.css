@@ -1,22 +1,50 @@
 body {
     background-color: #bbe;
-    font-size: 1.8rem;
+    margin: 0;
 }
 
-#form {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#chat-form {
     position: fixed;
     bottom: 0px;
     padding: 3px;
     width: 100%;
 }
 
-#form input {
+#chat-form input {
     width: 90vw;
     height: 6vh;
 }
 
-#form button {
+#chat-form button, .form button {
     width: 80px;
     height: 40px;
     font-size: 1.3rem;
+}
+
+.form input {
+    width: 25vw;
+    height: 5vh;
+    margin-bottom: 20px;
+}
+
+.message {
+    width: 100%;
+    padding: 10px;
+    border-bottom: solid 1px #555;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
