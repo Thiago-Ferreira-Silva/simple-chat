@@ -1,13 +1,14 @@
 body {
-    background-color: #bbe;
+    background-color: #aaa;
     margin: 0;
+    overflow-x: hidden;
+    font-size: 1.1rem;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 #chat-form {
@@ -34,10 +35,19 @@ ul {
     margin-bottom: 20px;
 }
 
-.message {
-    width: 100%;
+.message, .my-message {
+    width: calc(100% -20px);
     padding: 10px;
     border-bottom: solid 1px #555;
+}
+
+.my-message {
+    text-align: right;
+}
+
+.connection {
+    color: #555;
+    text-align: center;
 }
 
 .form {
